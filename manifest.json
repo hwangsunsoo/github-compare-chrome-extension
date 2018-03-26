@@ -9,7 +9,6 @@
     "default_popup": "index.html"
   },
   "permissions": [
-    "tabs",
-    "alarms"
+    "tabs"
   ]
 }
