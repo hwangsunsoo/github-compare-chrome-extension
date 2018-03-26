@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<title>Github Compare Chrome Extension</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="floating_compare">
+    <div class="inner">
+        <strong class="title">Github Compare Chrome Extension</strong>
+        <div class="component">
+            <label for="watchRepository">저장소 URL</label>
+            <span id="watchRepositoryExam">예시: https://github.com/hwangsunsoo/github-compare-chrome-extension</span>
+            <input type="text" id="watchRepository" value="">
+        </div>
+        <div class="component">
+            <label for="startCompare">기준이 되는 커밋 태그 (Base)</label>
+            <input type="text" id="startCompare" value="">
+        </div>
+        <div class="component">
+            <label for="endCompare">비교하려는 커밋 태그 (Compare)</label>
+            <input type="text" id="endCompare" value="">
+        </div>
+        <div class="component">
+            <button id="createUrl">Compare URL 생성</button>
+        </div>
+        <div class="component">
+            <label for="resultUrl">결과 URL</label>
+            <textarea id="resultUrl"></textarea>
+            <button id="viewUrl" style="display:none;">확인</button>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

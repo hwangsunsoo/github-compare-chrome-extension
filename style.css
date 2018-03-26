@@ -1,0 +1,47 @@
+body {
+	position: relative;
+	margin: 0;
+	width: 500px;
+	background-color: #f0f0f0;
+	font-family: Tahoma, sans-serif;
+	font-size: 13px;
+	color: #000;
+}
+.floating_compare {
+	margin: 20px 30px;
+}
+.floating_compare select,
+.floating_compare input[type="text"],
+.floating_compare textarea {
+	font-size: 13px;
+}
+.floating_compare input[type="text"],
+.floating_compare textarea {
+	border: 1px solid #000;
+}
+.floating_compare .title {
+	font-size: 16px;
+	font-weight: 500;
+	color: #00c73c;
+}
+.floating_compare .component {
+	margin-top: 15px;
+}
+.floating_compare #watchRepository,
+.floating_compare #startCompare,
+.floating_compare #endCompare {
+	width: 100%;
+	margin-top: 4px;
+}
+.floating_compare #watchRepositoryExam {
+	display: block;
+	margin-top: 4px;
+	font-size: 0.9em;
+}
+.floating_compare #resultUrl {
+	width: 100%;
+	height: 40px;
+	margin-top: 4px;
+	word-break: break-all;
+	resize: none;
+}
